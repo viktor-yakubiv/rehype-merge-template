@@ -1,0 +1,26 @@
+{
+  "name": "rehype-merge-documents",
+  "version": "0.0.0",
+	"type": "module",
+  "main": "index.js",
+	"types": "index.d.ts",
+  "description": "Rehype plugin to merge document with a template",
+  "keywords": [
+    "rehype",
+    "plugin",
+    "merge",
+    "documents",
+    "template",
+    "templates",
+    "append"
+  ],
+  "author": "Viktor Yakubiv (www.yakubiv.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "rehype": "^12.0.1"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  }
+}
