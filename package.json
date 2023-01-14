@@ -1,9 +1,9 @@
 {
   "name": "rehype-merge-documents",
   "version": "0.0.0",
-	"type": "module",
+  "type": "module",
   "main": "index.js",
-	"types": "index.d.ts",
+  "types": "index.d.ts",
   "description": "Rehype plugin to merge document with a template",
   "keywords": [
     "rehype",
@@ -22,5 +22,12 @@
   },
   "scripts": {
     "test": "mocha test.js"
+  },
+  "dependencies": {
+    "hast-util-is-element": "^2.1.3",
+    "hast-util-select": "^5.0.3",
+    "lodash.clonedeep": "^4.5.0",
+    "to-vfile": "^7.2.3",
+    "vfile": "^5.3.6"
   }
 }
